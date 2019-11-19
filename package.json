@@ -1,0 +1,26 @@
+{
+  "name": "@blanket-ai/repo-name",
+  "version": "0.0.1",
+  "description": "Your package description here",
+  "private": true,
+  "scripts": {
+    "test": "mocha",
+    "test:watch": "yarn test --watch --growl",
+    "test:coverage": "nyc --reporter=html yarn test && open coverage/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blanket-ai/repo-name.git"
+  },
+  "author": "Blanket Engineering Team",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/blanket-ai/repo-name#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^6.1.0",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1",
+    "sinon-chai": "^3.3.0"
+  }
+}

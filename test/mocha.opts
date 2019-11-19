@@ -1,0 +1,4 @@
+--file test/_init.js
+--recursive
+--check-leaks
+--exit

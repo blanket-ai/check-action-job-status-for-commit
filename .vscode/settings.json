@@ -1,0 +1,14 @@
+{
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "boundary",
+  "editor.cursorStyle": "block",
+  "files.exclude": {
+      "**/node_modules": true
+  },
+  "editor.rulers": [
+      140
+  ],
+  "editor.minimap.enabled": false,
+  "files.trimTrailingWhitespace": true,
+  "tslint.autoFixOnSave": true
+}
