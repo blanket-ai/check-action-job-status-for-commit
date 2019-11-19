@@ -1,0 +1,16 @@
+
+name: 'Hello World'
+description: 'Greet someone and record the time'
+inputs:
+  sha:
+    description: 'The SHA which to check'
+    required: true
+  job_name:
+    description: 'The job name'
+    required: true
+outputs:
+  status: # id of output
+    description: 'The status of the given job'
+runs:
+  using: 'node12'
+  main: 'index.js'
