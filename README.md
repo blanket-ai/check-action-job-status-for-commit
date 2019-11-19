@@ -1,8 +1,3 @@
-> **HOW TO USE THIS REPO TEMPLATE**
->
-> Click on the green button that says `Use this template` in the [repo home page](https://github.com/blanket-ai/repo-template-js).
-> ![Use this template screenshot](http://blnkt.me/dfeb492560a5/%255Ba513c62c1b0a0a01388fe9011bda9185%255D_Screen%252520Shot%2525202019-08-03%252520at%25252012.25.13%252520PM.png "Button to create a new repo from this template")
-
 # REPO_PROJECT_NAME
 > Insert repo description here.
 
