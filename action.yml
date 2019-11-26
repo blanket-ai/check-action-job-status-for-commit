@@ -1,9 +1,9 @@
 
-name: 'Hello World'
-description: 'Greet someone and record the time'
+name: 'Check job status for commit'
+description: 'Returns the job status of a given Github workflow job within any workflow that is or has been run on a given Git ref.'
 inputs:
-  sha:
-    description: 'The SHA which to check'
+  ref:
+    description: 'The ref to check'
     required: true
   job_name:
     description: 'The job name'
