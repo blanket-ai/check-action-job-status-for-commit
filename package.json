@@ -1,7 +1,7 @@
 {
-  "name": "@blanket-ai/repo-name",
+  "name": "@blanket-ai/check-action-job-status-for-commit",
   "version": "0.0.1",
-  "description": "Your package description here",
+  "description": "A Github action for checking if the checks have passed on a given Git ref",
   "private": true,
   "scripts": {
     "test": "mocha",
@@ -10,17 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blanket-ai/repo-name.git"
+    "url": "git+https://github.com/blanket-ai/check-action-job-status-for-commit.git"
   },
   "author": "Blanket Engineering Team",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/blanket-ai/repo-name#readme",
+  "homepage": "https://github.com/blanket-ai/check-action-job-status-for-commit#README.md",
   "devDependencies": {
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
     "eslint": "^6.1.0",
     "mocha": "^6.2.0",
-    "nyc": "^14.1.1",
+    "nyc": "^15.0.0",
     "sinon-chai": "^3.3.0"
   },
   "dependencies": {
